@@ -1,80 +1,89 @@
 <!DOCTYPE html>
-    <head> 
-        <title>
-            Home
-        </title>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <nav class="navbar sticky-top navbar-expand-lg">
-            <a class="navbar-brand" href="#">angie plumb.</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto" >
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">//about</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">//projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">//contact</a>
-                </li>
-              </ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <a class="navbar-brand" href="#">angie plumb.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">//about</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">//projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">//contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="form-group row">
+        <div class="col-sm-6" align="center">
+            <img src="polaroid.png">
+            <div>
+                <button class="button">Projects</button>
             </div>
-          </nav>
-    </head>
-    <body>
-        <div class="row">
-            <div class="col-sm-5">
-                <img src="polaroid.png" style="height: auto; width: 400px;">
-                <div>
-                    <button class="button">Projects</button>
-                </div>
-                <div>
-                    <button class="button">Resume</button>
-                </div>
-            </div>
-            <div class="col-sm-7" style="position: relative; margin-top: 25px;">
-                    <div class="block"></div>
-                    <table>
-                        <tr>
-                            <th>Info</th>
-                            <td>
-                                <ul>
-                                    <li>UC San Diego Class of '26</li>
-                                    <li>Major: Computing and Arts (ICAM)</li>
-                                    <li>Minor: Computer Science (CSE)</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Relevant<br>Coursework</th>
-                            <td>
-                                <ul>
-                                    <li>CSE 12 - Basic Data Struct & OO Design</li>
-                                    <li>CSE 15L - Software Tools & Techniques Lab</li>
-                                    <li>ECE 15 - Engineering Computation</li>
-                                    <li>CSE 8A & 8B - Intro To Programming</li>
-                                    <li>VIS 41 - Design Communication</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th>Job Experience</th>
-                            <td>
-                                <ul>
-                                    <li>Research Programming Intern (Aptril 2024 - Present)</li>
-                                    <li>Computer Technician<br>(February 2023 - Present)</li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </table>
+            <div>
+                <button class="button">Resume</button>
             </div>
         </div>
-    </body>
+
+        <div class="col-sm-6" align="center" >
+            <div class="wrap">
+                <div class="block"></div>
+                <table>
+                    <tr>
+                        <th>Education</th>
+                        <td>
+                            <ul>
+                                <li>UC San Diego Class of '26</li>
+                                <li>Major: Computing and Arts (ICAM)</li>
+                                <li>Minor: Computer Science (CSE)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Relevant<br>Coursework</th>
+                        <td>
+                            <ul>
+                                <li>CSE 12 - Basic Data Struct & OO Design</li>
+                                <li>CSE 15L - Software Tools & Techniques Lab</li>
+                                <li>ECE 15 - Engineering Computation</li>
+                                <li>CSE 8A & 8B - Intro To Programming</li>
+                                <li>VIS 41 - Design Communication</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Job Experience</th>
+                        <td>
+                            <ul>
+                                <li>Research Programming Intern (April 2024 - Present)</li>
+                                <li>Computer Technician (February 2023 - Present)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Skills</th>
+                        <td>
+                            <ul>
+                                <li>HTML/CSS, Java, Python, C, JavaScript, Postgres SQL, PHP, Git</li>
+                                <li>Adobe Suite (eg. After Effects, Photoshop, Light Room)</li>
+                                <li>Linux, Web Development, UI/UX, Media Editing, Graphic Design</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
