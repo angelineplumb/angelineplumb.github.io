@@ -53,7 +53,6 @@ table {
     transition: all 0.3s ease;
     align-items: flex-end;
     font-family:'Courier New', Courier, monospace;
-    margin-right: 10px;
     margin-top: 15px;
 }
 
@@ -71,10 +70,39 @@ table:hover {
     position: absolute;
     display: inline-block;
     background-color: white; 
-    width: 515px;
-    height: 485px;
-    margin-left: 10px;
+    width: 500px;
+    height: 420px;
+    margin-left: 15px;
 }
+
+.button{
+    background-color: transparent;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    border-color: white;
+    border-style:solid;
+    border-radius: 2px;
+    border-width: 2px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 250px;
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 275px;
+    height: 40px;
+    margin-left: 45px;
+}
+
+img{
+    margin-left: 45px;
+}
+
 
   
 
