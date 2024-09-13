@@ -25,12 +25,12 @@ nav{
     color: grey;
 }
 
-.active:hover{
+.active{
     color: green;
 }
 
-.active{
-    color: greenyellow;
+.active:hover{
+    color: #414E3C;
 }
 
 .navbar-brand{
@@ -44,15 +44,24 @@ nav{
 
 
 table {
-    width: 100%;
-    height: 100%;
+    width:100%;
+    height: auto;
     background: black;
     border: 2px solid white;
-    transition: all 0.3s ease;
     font-family: 'Courier New', Courier, monospace;
-    z-index: 2;
-    margin-top: 25px;
+    margin: 0 auto;
+    margin-top: 15px;
+    min-width: 500px;
+    min-height: 600px;
+    
 }
+
+tr:hover{
+    background-color:darkslategray;
+    border: 2px solid black;
+    font-size: 105%;
+}
+
 
 th {
     text-align: center;
@@ -60,9 +69,12 @@ th {
     border-right: 2px solid white;
 }
 
-table:hover {
-    transform: translate(-15px, 15px);
+td{
+    display: inline-block;
+    text-align: left;
+    width: 100%;
 }
+
 
 .button {
     background-color: transparent;
@@ -87,15 +99,41 @@ table:hover {
 
 img {
     height: auto;
-    width: 75%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 450px;
+    min-width: 345px; 
 }
 
-.form-group {
+.row {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
+
+.col {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 875px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex: 1 1 100%; 
+    }
+
+    table{
+        max-width: fit-content;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+}
+
 
 
 
