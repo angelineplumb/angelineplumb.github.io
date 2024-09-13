@@ -26,16 +26,16 @@ nav{
 }
 
 .active{
-    color: green;
-}
-
-.active:hover{
-    color: #414E3C;
+    color: yellowgreen;
 }
 
 .navbar-brand{
     color: white;
     font-family:'Courier New', Courier, monospace;
+}
+
+.navbar-brand:hover{
+    color: yellowgreen;
 }
 
 .navbar-toggler-icon {
@@ -44,8 +44,8 @@ nav{
 
 
 table {
-    width:100%;
-    height: auto;
+    width:95%;
+    height: 100%;
     background: black;
     border: 2px solid white;
     font-family: 'Courier New', Courier, monospace;
@@ -57,9 +57,7 @@ table {
 }
 
 tr:hover{
-    background-color:darkslategray;
-    border: 2px solid black;
-    font-size: 105%;
+    background-color: #1a1a1a;
 }
 
 
@@ -67,6 +65,10 @@ th {
     text-align: center;
     vertical-align: top;
     border-right: 2px solid white;
+    color:yellowgreen;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 td{
@@ -98,10 +100,12 @@ td{
 }
 
 img {
+    margin-top: 25px;
+    margin-left: 5px;
     height: auto;
     width: 100%;
-    max-width: 450px;
-    min-width: 345px; 
+    max-width: 425px;
+    min-width: 320px; 
 }
 
 .row {
