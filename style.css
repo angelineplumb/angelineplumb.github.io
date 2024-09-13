@@ -4,7 +4,7 @@ body{
     background-color: black;
     color: white;
     overflow-x: hidden;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 nav{
@@ -13,6 +13,7 @@ nav{
     border-style:solid;
     border-radius: 2px;
     border-width: 2px;
+    min-width: 100%;
 }
 
 .nav-link{
@@ -89,7 +90,6 @@ td{
     margin-top: 20px;
     font-size: 20px;
     width: 35%;
-    min-width: 100px;
 }
 
 .button:hover {
@@ -132,9 +132,16 @@ img {
     }
 
     table{
+        min-width:350px;
         max-width: fit-content;
         margin: 0 auto;
         margin-top: 25px;
+    }
+
+    img{
+        margin-left: 0px;
+        height: auto;
+        width: 75%;
     }
 }
 
