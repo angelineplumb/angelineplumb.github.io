@@ -99,15 +99,6 @@ td{
     width: 40%;
 }
 
-img {
-    margin-top: 25px;
-    margin-left: 5px;
-    height: auto;
-    width: 100%;
-    max-width: 425px;
-    min-width: 320px; 
-}
-
 .row {
     display: flex;
     flex-wrap: nowrap;
@@ -144,6 +135,32 @@ img {
         width: 75%;
     }
 }
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.top-image {
+    position: absolute;
+    z-index: 10;
+    margin-top: 25px;
+    margin-left: 5px;
+    height: auto;
+    width: 100%;
+    max-width: 425px;
+    min-width: 320px; 
+}
+
+.bottom-image {
+    margin-top: 30px;
+    margin-left: 20px;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px; 
+}
+  
 
 
 
